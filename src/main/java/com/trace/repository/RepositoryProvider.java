@@ -10,14 +10,14 @@ public interface RepositoryProvider {
     /**
      * Receiving repository for storing clients ip.
      *
-     * @return repository.
+     * @return ip repository.
      */
-    DataRepository<String> getIpStorage();
+    DataRepository<String> getIpRepository();
 
     /**
      * Receiving repository for storing values.
      *
-     * @return repository.
+     * @return value repository.
      */
-    DataRepository<BigInteger> getValueStorage();
+    DataRepository<BigInteger> getValueRepository();
 }

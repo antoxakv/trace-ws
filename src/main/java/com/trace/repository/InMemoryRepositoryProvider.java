@@ -12,12 +12,12 @@ public final class InMemoryRepositoryProvider implements RepositoryProvider {
     private final DataRepository<BigInteger> valueStorage = new InMemoryDataRepository<>();
 
     @Override
-    public DataRepository<String> getIpStorage() {
+    public DataRepository<String> getIpRepository() {
         return ipStorage;
     }
 
     @Override
-    public DataRepository<BigInteger> getValueStorage() {
+    public DataRepository<BigInteger> getValueRepository() {
         return valueStorage;
     }
 

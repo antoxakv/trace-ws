@@ -12,8 +12,8 @@ public final class DefaultServiceProvider implements ServiceProvider {
     private final GeneratorService generatorService;
 
     public DefaultServiceProvider(RepositoryProvider repositoryProvider) {
-        ipService = new DefaultIpService(repositoryProvider.getIpStorage());
-        generatorService = new DefaultGeneratorService(repositoryProvider.getValueStorage());
+        ipService = new DefaultIpService(repositoryProvider.getIpRepository());
+        generatorService = new DefaultGeneratorService(repositoryProvider.getValueRepository());
     }
 
     @Override

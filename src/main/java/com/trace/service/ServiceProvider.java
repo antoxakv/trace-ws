@@ -8,14 +8,14 @@ public interface ServiceProvider {
     /**
      * Receiving service for manage clients ip.
      *
-     * @return service.
+     * @return ip service.
      */
     IpService getIpService();
 
     /**
      * Receiving service for generate value.
      *
-     * @return service.
+     * @return generator service.
      */
     GeneratorService getGeneratorService();
 }

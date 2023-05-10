@@ -7,7 +7,7 @@ import org.eclipse.jetty.websocket.server.JettyServerUpgradeResponse;
 import org.eclipse.jetty.websocket.server.JettyWebSocketCreator;
 
 /**
- * Jetty Factory for create and configure {@link SubscriptionEndpoint}.
+ * Jetty Creator for create and configure {@link SubscriptionEndpoint}.
  */
 public final class SubscriptionEndpointCreator implements JettyWebSocketCreator {
 

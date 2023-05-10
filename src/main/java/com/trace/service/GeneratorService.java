@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Optional;
 
 /**
- * Interface define logic for work random value.
+ * Interface defines logic for work with random value.
  */
 public interface GeneratorService {
 

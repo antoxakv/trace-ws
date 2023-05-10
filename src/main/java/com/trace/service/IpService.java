@@ -1,7 +1,7 @@
 package com.trace.service;
 
 /**
- * Interface define logic for work with clients ip.
+ * Interface defines logic for work with clients ip.
  */
 public interface IpService {
 

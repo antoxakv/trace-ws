@@ -93,12 +93,12 @@ final class SubscriptionEndpoint extends WebSocketAdapter {
     }
 
     private String initIp() {
-        String ip = null;
+        String host = null;
         SocketAddress remoteAddress = getSession().getRemoteAddress();
         if (remoteAddress instanceof InetSocketAddress) {
             var inetSocketAddress = (InetSocketAddress) remoteAddress;
-            ip = inetSocketAddress.getHostString();
+            host = inetSocketAddress.getHostString();
         }
-        return ip;
+        return host;
     }
 }
